@@ -1,0 +1,59 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 100%;
+    min-width: 400px;
+    max-width: 1200px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.columna{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: 0;
+}
+
+.asignatura {
+    background-color: chocolate; 
+    justify-items: center;
+    margin-right: 98px;
+}
+.hora {
+    margin-right: 20px;
+}
+.cabecera {
+    background-color:bisque ;
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.title1 {
+    text-align: center;
+    width: 100px;
+    background-color: blue;
+ 
+}
+
+.title2 {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.dia {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.dia > div {
+    margin-right: 100px;
+}

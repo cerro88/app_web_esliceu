@@ -1,0 +1,60 @@
+.dia {
+    color: #e24cc2;
+    background-color: #021402;
+    border: 2px solid #d810ad;
+
+}
+
+.Serveis {
+    color: #0121d6;
+    background-color: #2aacb6;
+    border: 2px solid #0121d6;
+}
+
+.Sistemes {
+    color: #056b52;
+    background-color: #b6b42a;
+    border: 2px solid #056b52;
+}
+
+.Aplicacions {
+    color: #034635;
+    background-color: #9978d6;
+    border: 2px solid #034635;
+}
+
+.hora {
+    color: #365015;
+    background-color: #2ab660;
+    border: 2px solid #365015;
+}
+
+.Seguretat {
+    color: #4d0a1e;
+    background-color: #c99c5a;
+    border: 2px solid #4d0a1e;
+}
+
+.EIE {
+    color: #644d01;
+    background-color: #ebe97c;
+    border: 2px solid #644d01;
+}
+
+.web {
+    color: #102497;
+    background-color: #843ac9;
+    border: 2px solid #102497;
+}
+
+.pati {
+    color: #000505;
+    background-color: #95c6ee;
+    border: 2px solid #000505
+}
+
+.horari {
+    color: #000000;
+    background-color: #9c7c7c;
+    border: 2px solid #000000;
+}

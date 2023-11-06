@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari de Registre</title>
+</head>
+<body>
+    <ul>
+        <a href="index.html">Índex</a><br>
+        <a href="simple.html">Simple web</a><br>
+        <a href="horari.html">Horari</a>
+    </ul>
+    <h1>Formulari de Registre</h1>
+   <form action="formulari.html" method="get">
+        <table>
+            <div>
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" required>
+                <label for="llinatges">Llinatges:</label>
+                <input type="text" name="llinatges" required>
+            </div>
+            <div>
+                <label for="home">Home:</label>
+                <input type="radio" name="home" value="home">
+                <label for="dona">Dona:</label>
+                <input type="radio" name="dona" value="dona">
+                <label for="altre">Altre:</label>
+                <input type="radio" name="altre" value="altre">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+                <label for="password">Contrasenya:</label>
+                <input type="password" name="password" minlength="5" maxlength="10" required>
+            </div>
+            <div>
+                <label for="">Data de naixement:</label>
+                <input type="date" name="data de naixement" required>
+            </div>
+            <div>
+                <label for="Data naixement">Estic d'acord amb els termes i condicions:</label>
+                <input type="checkbox" name="" required>
+            </div>
+            <div>
+                <label for="submit"></label>
+                <input type="submit" value="submit" required>
+            </div>
+        </table>
+
+   </form>
+</body>
+</html>

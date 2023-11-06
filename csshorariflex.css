@@ -1,0 +1,40 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 100%;
+    min-width: 400px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.flex {
+    display: flex;
+    width: 100%;
+} 
+<!-- display: flex  contenedor flexible -->
+<!-- width: 100% -->
+<!-- el ancho del elemento con la clase .-->
+ <!-- flex al 100% del ancho disponible de su contenedor principal.-->
+
+ .columna_izq {
+    width: 20%;
+}
+
+.columna_derch {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.celda {
+    border: 1px solid #000;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 6px);
+}
+
+
